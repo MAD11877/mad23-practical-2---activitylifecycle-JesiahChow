@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ToggleButton Follow = (ToggleButton)findViewById(R.id.button);
+        User user = new User("Jesiah","Hello");
         Follow.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged (CompoundButton Follow, boolean isChecked) {
                 if (isChecked) {

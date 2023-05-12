@@ -41,4 +41,9 @@ public class User {
     }
 
     public boolean followed;
+
+    public User(String name, String description){
+        this.name = name;
+        this.description = description;
+    }
 }
